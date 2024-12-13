@@ -6,7 +6,7 @@ import numpy as np
 import altair as alt
 
 # Load the trained model
-pickle_in = open("Store-Sales-Pred.pkl", "rb")
+pickle_in = open("C:\Users\abinesh\Streamlit\Store-Sales-Pred.pkl", "rb")
 regressor = pickle.load(pickle_in)
 
 # Initialize a DataFrame to store user input data
